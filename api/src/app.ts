@@ -16,6 +16,12 @@ const limiter = rateLimit({
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.use((_, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
+
 app.use(helmet());
 app.use(limiter);
 app.use('/v1', router);

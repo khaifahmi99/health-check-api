@@ -1,13 +1,12 @@
 import AppBar from "./components/AppBar";
+import ServiceTable from "./components/ServiceTable";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-slate-900 h-screen">
       <AppBar />
-      <div>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <div className='w-9/12 my-16 mx-auto'>
+        <ServiceTable />
       </div>
     </div>
   );

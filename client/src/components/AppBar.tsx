@@ -6,7 +6,7 @@ import {
 } from 'baseui/header-navigation';
 import { Button } from 'baseui/button';
 
-export default function AppBar() {
+const AppBar = () => {
   const redirectToGithub = () => {
     window.open('https://github.com/khaifahmi99/health-check-api', '_blank', 'noopener,noreferrer')
   }
@@ -25,3 +25,5 @@ export default function AppBar() {
     </HeaderNavigation>
   );
 }
+
+export default AppBar;

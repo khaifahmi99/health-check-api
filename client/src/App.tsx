@@ -1,9 +1,14 @@
-import BaseUI from "./components/BaseUI";
+import AppBar from "./components/AppBar";
 
 function App() {
   return (
     <div className="App">
-      <BaseUI />
+      <AppBar />
+      <div>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
+      </div>
     </div>
   );
 }

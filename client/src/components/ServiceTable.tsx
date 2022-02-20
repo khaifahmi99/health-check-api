@@ -5,15 +5,11 @@ import ServiceTag from "./ServiceTag";
 const SERVICES = [
   {
     name: 'Nyan Cat',
-    url: 'http://192.168.0.20',
+    url: 'http://192.168.0.33',
   },
   {
     name: 'Wordle',
-    url: 'http://192.168.0.20:5000',
-  },
-  {
-    name: 'Sky Office',
-    url: 'http://192.168.0.20:3000',
+    url: 'http://192.168.33:3000',
   },
 ]
 

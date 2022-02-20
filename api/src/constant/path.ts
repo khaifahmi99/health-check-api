@@ -1,5 +1,4 @@
-export const PATHS = {
-    NYAN: 'http://192.168.0.20',
-    WORDLE: 'http://192.168.0.20:5000',
-    SKY_OFFICE_CLIENT: 'http://192.168.0.20:3000',
+export const PATH = {
+  NYAN: '192.168.0.33',
+  WORDLE: '192.168.0.33:3000'
 }
